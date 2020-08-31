@@ -1,6 +1,7 @@
 # Statistical-Methods-for-Improving-Likely-Voter-Models-for-U.S.-Election-Data
 
 Abstract
+
 The standard Perry-Gallup likely voter model is investigated as an initial analysis on the
 2008 and 2016 U.S. election data from the Cooperative Congressional Election Study. Alternative
 methods are introduced as enhancements to this model, based on the Perry-Gallup
