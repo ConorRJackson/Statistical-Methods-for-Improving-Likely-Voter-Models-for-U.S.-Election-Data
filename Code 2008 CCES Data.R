@@ -86,6 +86,21 @@ dim(x[indtrain,])
 
 dim(x[indtest,]) 
 
+
+#################################################################
+
+#################################################################
+
+#### Test for multicollinearity ####
+
+#install.packages("faraway")
+library(faraway)
+
+fit.lm<-lm(result ~ ., data=x[indtrain, ])
+vif(fit.lm)
+# variance inflation factor test
+# test multicollinearity all values should be less than 10
+
 #################################################################
 
 #################################################################
